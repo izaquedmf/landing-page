@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9FAF8;
+}
+
+header, .hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {    
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    padding: 60px 200px;
+
+}
+
+
+.left {
+    flex: 1;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    border: 2px solid #E5E7EB;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.info {
+    text-align: center;
+    padding: 50px 200px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.images img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+    color: #1F2937;
+    max-width: 150px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 50px 200px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: justify;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: right;
+    
+}
+
+footer {
+    padding: 50px 200px;
+}
+
+.call-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.bottom-text p {
+    color: #F9FAF8;
+}
+
+.bottom-text p:first-of-type {
+    font-weight: bold;
+}
